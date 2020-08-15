@@ -20,10 +20,12 @@
     0px 1px 1px rgba(0, 0, 0, 0.14), 
     0px 1px 3px rgba(0, 0, 0, 0.12);
     border-radius: 0px 0px 4px 4px;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
-.team-list-person:not(:last-child) {
-    margin-right: 30px;
-}
+
 .team-img {
     margin-bottom: 30px;
 }
@@ -60,6 +62,10 @@
     justify-content: center;
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+    background-color: $accent-text-color;
+}
 }
 .team-social-link-svg {
     width: 20px;
@@ -67,10 +73,7 @@
     fill: $secondary-bg-color;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-link:hover,
-.team-link:focus {
-    background-color: $accent-text-color;
-}
+
 .team-link:hover .team-social-link-svg,
 .team-link:focus .team-social-link-svg{
     fill: $main-bg-color;

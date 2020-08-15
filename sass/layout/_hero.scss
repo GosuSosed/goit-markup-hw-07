@@ -9,19 +9,20 @@
     background-size: cover;
     padding-top: 200px;
     padding-bottom: 200px;
-}
-.hero-title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    text-align: center;
-    color: $main-bg-color;
-    margin-bottom: 30px;
-    width: 696px;
-    margin-right: auto;
-    margin-left: auto;
+
+    &-title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        text-align: center;
+        color: $main-bg-color;
+        margin-bottom: 30px;
+        width: 696px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 .button-main-top {
     width: 200px;
@@ -38,8 +39,9 @@
     margin-left: auto;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.button-main-top:hover,
-.button-main-top:focus {
+    
+    &:hover,
+    &:focus {
     background-color: #188CE8;
+}
 }

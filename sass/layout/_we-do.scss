@@ -10,9 +10,9 @@
 }
 .we-do-list-item {
     position: relative;
-}
-.we-do-list-item:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 .we-do-item {
     position: absolute;
