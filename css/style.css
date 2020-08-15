@@ -470,12 +470,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 .button-main-bot {
     display: flex;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
     letter-spacing: 0.06em;
     color: var(--main-bg-color);
     background-color: var(--accent-text-color);
@@ -483,6 +483,7 @@ h1,h2,h3,h4,h5,h6 {
     border-radius: 4px;
     width: 200px;
     height: 50px;
+    padding: 10px 28px;
 }
 .follow {
     display: flex;
@@ -630,19 +631,6 @@ margin-right: 10px;
     pointer-events: none;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: block;
-    width: 528px;
-    height: 581px;
-    padding: 40px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-} */
 .modal-title {
     display: inline-block;
     font-weight: 700;
@@ -724,6 +712,7 @@ margin-right: 10px;
     width: 100%;
     height: 120px;
     padding: 12px 16px;
+    margin: 0;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
